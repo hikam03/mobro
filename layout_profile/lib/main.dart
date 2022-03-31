@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xff141E27),
+        backgroundColor: Color(0xffffffff),
         body: SafeArea(
             child: ListView(
           children: [
@@ -22,12 +22,12 @@ class MyApp extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(
                       Icons.arrow_back,
-                      color: Colors.white,
+                      color: Colors.black,
                     )),
                 Text(
                   'Profile',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 20,
                     fontWeight: FontWeight.w800,
                   ),
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(
                       Icons.edit,
-                      color: Colors.white,
+                      color: Colors.black,
                     ))
               ],
             ),
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Muhammad Nurhikam Maulana',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 23,
                     fontWeight: FontWeight.w600,
                   ),
@@ -61,18 +61,18 @@ class MyApp extends StatelessWidget {
                 Text(
                   'nurhikam.065119177@unpak.ac.id',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 18,
-                    fontWeight: FontWeight.w400,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 SizedBox(height: 5),
                 Text(
                   '089651556067',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 20,
-                    fontWeight: FontWeight.w400,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 SizedBox(height: 5),
@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
                   margin:
                       EdgeInsets.only(top: 20, bottom: 20, left: 20, right: 20),
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Colors.black,
                       borderRadius: BorderRadius.circular(10)),
                   child: Column(
                     children: [
@@ -95,7 +95,7 @@ class MyApp extends StatelessWidget {
                         children: [
                           Text('NPM',
                               style: TextStyle(
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
                               )),
@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             '0651191277',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
                           Icon(
                             Icons.copy,
                             size: 16,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                         ],
                       ),
@@ -124,14 +124,14 @@ class MyApp extends StatelessWidget {
                         thickness: 3,
                         indent: 0,
                         endIndent: 0,
-                        color: Colors.black,
+                        color: Colors.white,
                       ),
                       SizedBox(height: 5),
                       Row(
                         children: [
                           Text('Status Keaktifan',
                               style: TextStyle(
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
                               )),
@@ -139,7 +139,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Aktif',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -151,7 +151,7 @@ class MyApp extends StatelessWidget {
                         thickness: 3,
                         indent: 0,
                         endIndent: 0,
-                        color: Colors.black,
+                        color: Colors.white,
                       ),
                       SizedBox(height: 5),
                       Row(
@@ -159,7 +159,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Program Studi',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -168,7 +168,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Ilmu Komputer',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
                         thickness: 3,
                         indent: 0,
                         endIndent: 0,
-                        color: Colors.black,
+                        color: Colors.white,
                       ),
                       SizedBox(height: 5),
                       Row(
@@ -188,7 +188,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Jenjang Pendidikan',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -197,7 +197,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'S1',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
@@ -215,7 +215,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Nama Lengkap',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -223,7 +223,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Muhammad Nurhikam',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -236,7 +236,7 @@ class MyApp extends StatelessWidget {
                   thickness: 2,
                   indent: 20,
                   endIndent: 20,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
                 SizedBox(height: 3),
                 Padding(
@@ -247,7 +247,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Nama Panggilan',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -255,7 +255,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Kojek',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -268,7 +268,7 @@ class MyApp extends StatelessWidget {
                   thickness: 2,
                   indent: 20,
                   endIndent: 20,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
                 SizedBox(height: 3),
                 Padding(
@@ -280,7 +280,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Alamat Rumah',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -289,7 +289,7 @@ class MyApp extends StatelessWidget {
                         'Kp.babakannyamplung KM04 ds.cinangka kec.ciampea kab.bogor',
                         // maxLines: 2,
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                           // overflow: TextOverflow.ellipsis,
@@ -303,7 +303,7 @@ class MyApp extends StatelessWidget {
                   thickness: 2,
                   indent: 20,
                   endIndent: 20,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 30, right: 30),
@@ -313,7 +313,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Kartu Mahasiswa',
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
@@ -322,7 +322,7 @@ class MyApp extends StatelessWidget {
                           onPressed: () {},
                           icon: Icon(
                             Icons.badge,
-                            color: Colors.white,
+                            color: Colors.black,
                           ))
                     ],
                   ),
